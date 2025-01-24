@@ -1,0 +1,43 @@
+.back{
+    position: relative;
+    text-align: center;
+    color: blanchedalmond;
+}
+#ove{
+    position: absolute;
+    top: 300px;
+    bottom: 20px;
+    font-size: xxx-large;
+    margin-left: 50px;
+}
+img{
+    height: 570px;
+    width: 100%;
+}
+#menu{
+    flex-direction: row;
+}
+li{
+    list-style: none;
+    display: inline;
+    padding: 3px;
+    margin: 12px;
+}
+nav{
+    display: flex;
+    
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%x;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+}
+.content img{
+    height: 100%;
+    width: 100%;
+    display: none;
+}
