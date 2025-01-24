@@ -1,111 +1,398 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gate 2</title>
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
-<nav>
-    <h1><span style="color: royalblue;">FeWo-direkt</span></h1>
-    <ul id="#menu">
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <nav>
+      <h1><span style="color: royalblue">FeWo-direkt</span></h1>
+      <ul id="#menu">
         <li>App herunterladen</li>
         <li>Reiseplaner</li>
         <li>Unterkunft registrieren</li>
         <li>Hilfe</li>
         <li>Meine Reisen</li>
         <li>Anmelden</li>
-    </ul>
-</nav>
-<div class="back">
-    <p id="ove">Alles gut, du buchst bei FeWo-direkt</p>
-    <img alt="image of grandfather with a kid" src="https://forever.travel-assets.com/flex/flexmanager/images/2022/08/02/2022-06-05_Vrbo_APFT2_Barcelona_Therin_House_2_4605_2.png?impolicy=fcrop&w=1920&h=580&q=medium">
-</div>
-<br><br>
-<center>
-    <div>Melde dich an, um dem Gastgeber eine 
-        Nachricht zu schicken und mehr Details zu einer Unterkunft zu erhalten.</div>
-        <div class="class">content
-            <h2>Beliebte Reiseziele</h2>
-        <figure class="image">
-            <img src="https://mediaim.expedia.com/destination/1/ac78c5f6f864cde812b97d395950e5b6.jpg?impolicy=fcrop&w=469&h=201&p=1&q=medium">
-            <img src="https://mediaim.expedia.com/destination/9/191dcb074564e1577247dcdce8666268.jpg?impolicy=fcrop&w=469&h=201&p=1&q=medium">
-            <img src="https://mediaim.expedia.com/destination/1/63bef95918f6b0f0971f63e4b8c67d59.jpg?impolicy=fcrop&w=469&h=201&p=1&q=medium">
-            <img src="https://mediaim.expedia.com/destination/9/a4828d3c6d048cb815ede53e30521aeb.jpg?impolicy=fcrop&w=469&h=201&p=1&q=medium">
-            <img src="https://mediaim.expedia.com/destination/2/4119312f5a7fc3a38cfc2582c720bfbf.jpg?impolicy=fcrop&w=469&h=201&p=1&q=medium">
-            <img src="https://mediaim.expedia.com/destination/2/f6d4579c74c32d7c9a4982867c48701b.jpg?impolicy=fcrop&w=469&h=201&p=1&q=medium">
-            <img src="https://mediaim.expedia.com/destination/9/8a57f434653e7413d4940194dc44f88a.jpg?impolicy=fcrop&w=469&h=201&p=1&q=medium">
-            <img src="https://mediaim.expedia.com/destination/1/79147ec901857a8595c97ecd48bfe773.jpg?impolicy=fcrop&w=469&h=201&p=1&q=medium">
-            <img src="https://mediaim.expedia.com/destination/1/10b9b6c68c38378997e5be2b72b6f090.jpg?impolicy=fcrop&w=469&h=201&p=1&q=medium">
-            <img src="https://mediaim.expedia.com/destination/1/4a704622f0ea6e23053c365705a07458.jpg?impolicy=fcrop&w=469&h=201&p=1&q=medium">
-        </figure>
-        <button class="prev"><</button>
-        <button class="next">></button>
+      </ul>
+    </nav>
+ 
+    <div class="back">
+      <p id="ove">Alles gut, du buchst bei FeWo-direkt</p>
+      <img
+        id="f1"
+        alt="image of grandfather with a kid"
+        src="https://forever.travel-assets.com/flex/flexmanager/images/2022/08/02/2022-06-05_Vrbo_APFT2_Barcelona_Therin_House_2_4605_2.png?impolicy=fcrop&w=1920&h=580&q=medium"
+      />
+      <div class="input">
+        <input placeholder="Wo soll’s hingehen?">
+        <input type="date" id="birthday" name="birthday">
+        <input placeholder="Gäste 
+        2 Reisende">
+        <button> Suchen    </button>
     </div>
-    <div class="container">
+    </div>
+    <br /><br />
+    <center>
+      <div>
+        Melde dich an, um dem Gastgeber eine Nachricht zu schicken und mehr
+        Details zu einer Unterkunft zu erhalten.
+      </div>
+      <h2>Beliebte Reiseziele</h2>
+      <div class="content">
+        <figure class="image">
+          <div class="foto1">
+            <img
+              src="https://mediaim.expedia.com/destination/1/ac78c5f6f864cde812b97d395950e5b6.jpg?impolicy=fcrop&w=469&h=201&p=1&q=medium"
+            />
+            <h3>Kigali</h3>
+          </div>
+          <div class="foto1">
+            <img
+              src="https://mediaim.expedia.com/destination/9/191dcb074564e1577247dcdce8666268.jpg?impolicy=fcrop&w=469&h=201&p=1&q=medium"
+            />
+            <h3>Paris</h3>
+          </div>
+          <div class="foto1">
+            <img
+              src="https://mediaim.expedia.com/destination/1/63bef95918f6b0f0971f63e4b8c67d59.jpg?impolicy=fcrop&w=469&h=201&p=1&q=medium"
+            />
+            <h3>Nairobi</h3>
+          </div>
+          <div class="foto1">
+            <img
+              src="https://mediaim.expedia.com/destination/9/a4828d3c6d048cb815ede53e30521aeb.jpg?impolicy=fcrop&w=469&h=201&p=1&q=medium"
+            />
+            <h3>Dubai</h3>
+          </div>
+          <!-- <img
+            src="https://mediaim.expedia.com/destination/2/4119312f5a7fc3a38cfc2582c720bfbf.jpg?impolicy=fcrop&w=469&h=201&p=1&q=medium"
+          />
+          <img
+            src="https://mediaim.expedia.com/destination/2/f6d4579c74c32d7c9a4982867c48701b.jpg?impolicy=fcrop&w=469&h=201&p=1&q=medium"
+          />
+          <img
+            src="https://mediaim.expedia.com/destination/9/8a57f434653e7413d4940194dc44f88a.jpg?impolicy=fcrop&w=469&h=201&p=1&q=medium"
+          />
+          <img
+            src="https://mediaim.expedia.com/destination/1/79147ec901857a8595c97ecd48bfe773.jpg?impolicy=fcrop&w=469&h=201&p=1&q=medium"
+          />
+          <img
+            src="https://mediaim.expedia.com/destination/1/10b9b6c68c38378997e5be2b72b6f090.jpg?impolicy=fcrop&w=469&h=201&p=1&q=medium"
+          />
+          <img
+            src="https://mediaim.expedia.com/destination/1/4a704622f0ea6e23053c365705a07458.jpg?impolicy=fcrop&w=469&h=201&p=1&q=medium"
+          /> -->
+        </figure>
+        <!-- <button class="prev"><</button>
+        <button class="next">></button> -->
+      </div>
+      <div class="container">
         <h2>Finde Unterkünfte ganz nach deinem Geschmack</h2>
         <div class="photos">
-            <img src="https://forever.travel-assets.com/flex/flexmanager/images/2024/03/06/VRBO_OOH_TRUST_LISBON_HOUSE_NATACHA_WIDE_BACKDOOR_HUMM_0004.jpg?impolicy=resizecrop&rh=590&cw=448&cx=-20">
-            <img src="https://forever.travel-assets.com/flex/flexmanager/images/2024/07/12/PARTNER_Vrbo_HouseBoat_V3.jpg?impolicy=resizecrop&rh=590&cw=448">
-            <img src="https://forever.travel-assets.com/flex/flexmanager/images/2023/11/24/VRBO_APFT2_BARCELONA_THERIN_HOUSE_1_1460.jpg?impolicy=resizecrop&rh=590&cw=448&cx=-10">
-            <img src="https://forever.travel-assets.com/flex/flexmanager/images/2024/03/04/PARTNER_Chalet_Rochefort_R2.jpg?impolicy=resizecrop&rh=590&cw=448&cx=-25">
-            <img src="https://forever.travel-assets.com/flex/flexmanager/images/2024/03/06/PARTNER_Historic_Chicago_Townhouse.jpg?impolicy=resizecrop&rh=590&cw=448&cx=-20">
-            <img src="https://forever.travel-assets.com/flex/flexmanager/images/2024/03/08/PARTNER_Letterbox_Cottage_Cotswolds_v2.jpg?impolicy=resizecrop&rh=590&cw=448&cx=-50">
+          <img
+            src="https://forever.travel-assets.com/flex/flexmanager/images/2024/03/06/VRBO_OOH_TRUST_LISBON_HOUSE_NATACHA_WIDE_BACKDOOR_HUMM_0004.jpg?impolicy=resizecrop&rh=590&cw=448&cx=-20"
+          />
+          <img
+            src="https://forever.travel-assets.com/flex/flexmanager/images/2024/07/12/PARTNER_Vrbo_HouseBoat_V3.jpg?impolicy=resizecrop&rh=590&cw=448"
+          />
+          <img
+            src="https://forever.travel-assets.com/flex/flexmanager/images/2023/11/24/VRBO_APFT2_BARCELONA_THERIN_HOUSE_1_1460.jpg?impolicy=resizecrop&rh=590&cw=448&cx=-10"
+          />
+          <img
+            src="https://forever.travel-assets.com/flex/flexmanager/images/2024/03/04/PARTNER_Chalet_Rochefort_R2.jpg?impolicy=resizecrop&rh=590&cw=448&cx=-25"
+          />
+          <img
+            src="https://forever.travel-assets.com/flex/flexmanager/images/2024/03/06/PARTNER_Historic_Chicago_Townhouse.jpg?impolicy=resizecrop&rh=590&cw=448&cx=-20"
+          />
+          <img
+            src="https://forever.travel-assets.com/flex/flexmanager/images/2024/03/08/PARTNER_Letterbox_Cottage_Cotswolds_v2.jpg?impolicy=resizecrop&rh=590&cw=448&cx=-50"
+          />
         </div>
-    </div>
-    <div class="stobere">
+      </div>
+      <div class="stobere">
         <h2>Stöbere in Wochenendtrips</h2>
         <p>Angebote für den Zeitraum:28. Feb.–2. März</p>
         <div class="stob">
-            <img src="https://images.trvl-media.com/lodging/34000000/33620000/33613300/33613265/517f2bb7.jpg?impolicy=fcrop&w=600&h=400&p=1&q=high">
-            <img src="https://images.trvl-media.com/lodging/34000000/33620000/33611500/33611421/8e024ac8.jpg?impolicy=fcrop&w=600&h=400&p=1&q=high">
-            <img src="https://images.trvl-media.com/lodging/32000000/31780000/31772100/31772040/d6a32c8e.jpg?impolicy=fcrop&w=600&h=400&p=1&q=high">
-            <img src="https://images.trvl-media.com/lodging/32000000/31780000/31772100/31772040/d6a32c8e.jpg?impolicy=fcrop&w=600&h=400&p=1&q=high">
-            <img src="https://images.trvl-media.com/lodging/34000000/33610000/33608500/33608475/c9b548e1.jpg?impolicy=fcrop&w=600&h=400&p=1&q=high">
-            <img src="https://images.trvl-media.com/lodging/34000000/33620000/33610300/33610215/8ca9845e.jpg?impolicy=fcrop&w=600&h=400&p=1&q=high">
-            <img src="https://images.trvl-media.com/lodging/35000000/34070000/34060600/34060551/42c96018.jpg?impolicy=fcrop&w=600&h=400&p=1&q=high">
-            <img src="https://images.trvl-media.com/lodging/34000000/33620000/33614100/33614034/4e022268.jpg?impolicy=fcrop&w=600&h=400&p=1&q=high">
-            <img src="https://images.trvl-media.com/lodging/35000000/34560000/34556200/34556151/529fe453.jpg?impolicy=fcrop&w=600&h=400&p=1&q=high">
-            <img src="https://images.trvl-media.com/lodging/34000000/33620000/33614300/33614250/589feb9e.jpg?impolicy=fcrop&w=600&h=400&p=1&q=high"> 
-            <img src="https://images.trvl-media.com/lodging/102000000/101840000/101838900/101838808/8914e74c.jpg?impolicy=fcrop&w=600&h=400&p=1&q=high">
-            <img src="https://images.trvl-media.com/lodging/34000000/33660000/33651800/33651751/423d4f74.jpg?impolicy=fcrop&w=600&h=400&p=1&q=high">
-            <img src="https://images.trvl-media.com/lodging/40000000/39980000/39973300/39973260/d545023b.jpg?impolicy=fcrop&w=600&h=400&p=1&q=high">
-            <img src="https://images.trvl-media.com/lodging/34000000/33620000/33611900/33611835/a1290ea2.jpg?impolicy=fcrop&w=600&h=400&p=1&q=high">
-            <img src="https://images.trvl-media.com/lodging/34000000/33610000/33609700/33609614/10dd1861.jpg?impolicy=fcrop&w=600&h=400&p=1&q=high">
+          <img
+            src="https://images.trvl-media.com/lodging/34000000/33620000/33613300/33613265/517f2bb7.jpg?impolicy=fcrop&w=600&h=400&p=1&q=high"
+          />
+          <img
+            src="https://images.trvl-media.com/lodging/34000000/33620000/33611500/33611421/8e024ac8.jpg?impolicy=fcrop&w=600&h=400&p=1&q=high"
+          />
+          <img
+            src="https://images.trvl-media.com/lodging/32000000/31780000/31772100/31772040/d6a32c8e.jpg?impolicy=fcrop&w=600&h=400&p=1&q=high"
+          />
+          <img
+            src="https://images.trvl-media.com/lodging/32000000/31780000/31772100/31772040/d6a32c8e.jpg?impolicy=fcrop&w=600&h=400&p=1&q=high"
+          />
+          <img
+            src="https://images.trvl-media.com/lodging/34000000/33610000/33608500/33608475/c9b548e1.jpg?impolicy=fcrop&w=600&h=400&p=1&q=high"
+          />
+          <img
+            src="https://images.trvl-media.com/lodging/34000000/33620000/33610300/33610215/8ca9845e.jpg?impolicy=fcrop&w=600&h=400&p=1&q=high"
+          />
+          <img
+            src="https://images.trvl-media.com/lodging/35000000/34070000/34060600/34060551/42c96018.jpg?impolicy=fcrop&w=600&h=400&p=1&q=high"
+          />
+          <img
+            src="https://images.trvl-media.com/lodging/34000000/33620000/33614100/33614034/4e022268.jpg?impolicy=fcrop&w=600&h=400&p=1&q=high"
+          />
+          <img
+            src="https://images.trvl-media.com/lodging/35000000/34560000/34556200/34556151/529fe453.jpg?impolicy=fcrop&w=600&h=400&p=1&q=high"
+          />
+          <img
+            src="https://images.trvl-media.com/lodging/34000000/33620000/33614300/33614250/589feb9e.jpg?impolicy=fcrop&w=600&h=400&p=1&q=high"
+          />
+          <img
+            src="https://images.trvl-media.com/lodging/102000000/101840000/101838900/101838808/8914e74c.jpg?impolicy=fcrop&w=600&h=400&p=1&q=high"
+          />
+          <img
+            src="https://images.trvl-media.com/lodging/34000000/33660000/33651800/33651751/423d4f74.jpg?impolicy=fcrop&w=600&h=400&p=1&q=high"
+          />
+          <img
+            src="https://images.trvl-media.com/lodging/40000000/39980000/39973300/39973260/d545023b.jpg?impolicy=fcrop&w=600&h=400&p=1&q=high"
+          />
+          <img
+            src="https://images.trvl-media.com/lodging/34000000/33620000/33611900/33611835/a1290ea2.jpg?impolicy=fcrop&w=600&h=400&p=1&q=high"
+          />
+          <img
+            src="https://images.trvl-media.com/lodging/34000000/33610000/33609700/33609614/10dd1861.jpg?impolicy=fcrop&w=600&h=400&p=1&q=high"
+          />
         </div>
-    </div>
-    <div class="mid">
-        <img src="https://a.travel-assets.com/travel-assets-manager/1-21-25/de-site-assets-editorial-2.jpg?impolicy=fcrop&w=576&h=324&q=mediumHigh">
-        <img src="https://a.travel-assets.com/travel-assets-manager/12-31-24/eu-site-assets-editorial-2.jpg?impolicy=fcrop&w=576&h=324&q=mediumHigh">
-    </div>
-    <div class="dim">
+      </div>
+      <div class="mid">
+        <img
+          src="https://a.travel-assets.com/travel-assets-manager/1-21-25/de-site-assets-editorial-2.jpg?impolicy=fcrop&w=576&h=324&q=mediumHigh"
+        />
+        <img
+          src="https://a.travel-assets.com/travel-assets-manager/12-31-24/eu-site-assets-editorial-2.jpg?impolicy=fcrop&w=576&h=324&q=mediumHigh"
+        />
+      </div>
+      <div class="dim">
         <h2>Ferienhäuser des Jahres 2024</h2>
-        <p>Außergewöhnliche Ferienunterkünfte für unvergessliche Gruppenreisen<br>
-            Angebote für den Zeitraum:28. März–31. März</p>
-            <div class="imagi">
-                <img src="https://images.trvl-media.com/lodging/38000000/37780000/37779400/37779376/a3a74466.jpg?impolicy=fcrop&w=600&h=400&p=1&q=high">
-                <img src="https://images.trvl-media.com/lodging/75000000/74780000/74773500/74773471/ce61478e.jpg?impolicy=fcrop&w=600&h=400&p=1&q=high">
-                <img src="https://images.trvl-media.com/lodging/45000000/44450000/44444600/44444524/120ff187.jpg?impolicy=fcrop&w=600&h=400&p=1&q=high">
-                <img src="https://images.trvl-media.com/lodging/91000000/90850000/90842300/90842231/51e48de9.jpg?impolicy=fcrop&w=600&h=400&p=1&q=high">
-                <img src="https://images.trvl-media.com/lodging/34000000/33570000/33568000/33567919/1d2e404c.jpg?impolicy=fcrop&w=600&h=400&p=1&q=high">
-                <img src="https://images.trvl-media.com/lodging/25000000/24130000/24126100/24126039/2ba606b8.jpg?impolicy=fcrop&w=600&h=400&p=1&q=high">
-                <img src="https://images.trvl-media.com/lodging/20000000/19520000/19512300/19512261/f10aff6b.jpg?impolicy=fcrop&w=600&h=400&p=1&q=high">
-            </div>
-    </div>
-    <div class="find">
+        <p>
+          Außergewöhnliche Ferienunterkünfte für unvergessliche Gruppenreisen<br />
+          Angebote für den Zeitraum:28. März–31. März
+        </p>
+        <div class="imagi">
+          <img
+            src="https://images.trvl-media.com/lodging/38000000/37780000/37779400/37779376/a3a74466.jpg?impolicy=fcrop&w=600&h=400&p=1&q=high"
+          />
+          <img
+            src="https://images.trvl-media.com/lodging/75000000/74780000/74773500/74773471/ce61478e.jpg?impolicy=fcrop&w=600&h=400&p=1&q=high"
+          />
+          <img
+            src="https://images.trvl-media.com/lodging/45000000/44450000/44444600/44444524/120ff187.jpg?impolicy=fcrop&w=600&h=400&p=1&q=high"
+          />
+          <img
+            src="https://images.trvl-media.com/lodging/91000000/90850000/90842300/90842231/51e48de9.jpg?impolicy=fcrop&w=600&h=400&p=1&q=high"
+          />
+          <img
+            src="https://images.trvl-media.com/lodging/34000000/33570000/33568000/33567919/1d2e404c.jpg?impolicy=fcrop&w=600&h=400&p=1&q=high"
+          />
+          <img
+            src="https://images.trvl-media.com/lodging/25000000/24130000/24126100/24126039/2ba606b8.jpg?impolicy=fcrop&w=600&h=400&p=1&q=high"
+          />
+          <img
+            src="https://images.trvl-media.com/lodging/20000000/19520000/19512300/19512261/f10aff6b.jpg?impolicy=fcrop&w=600&h=400&p=1&q=high"
+          />
+        </div>
+      </div>
+      <div class="find">
+        <h2>Finde private Unterkünfte, die zu dir passen</h2>
+        <p>
+          Du willst von der Oma bis zum Baby alle mitnehmen? Auch deine pelzigen
+          Freunde? Entdecke Ferienunterkünfte, die deinen Bedürfnissen
+          entsprechen.
+        </p>
+        <div class="finding">
+          <img
+            src="https://forever.travel-assets.com/flex/flexmanager/mediaasset/718022-0_2-near%20the%20beach.jpg?impolicy=fcrop&h=590&w=448"
+          />
+          <img
+            src="https://forever.travel-assets.com/flex/flexmanager/mediaasset/718024-0_2-pets%20welcome.jpg?impolicy=fcrop&h=590&w=448"
+          />
+          <img
+            src="https://forever.travel-assets.com/flex/flexmanager/mediaasset/718030-0_2-swimming%20pools.jpg?impolicy=resizecrop&rh=590&cw=448&cx=-145"
+          />
+          <img
+            src="https://forever.travel-assets.com/flex/flexmanager/mediaasset/718028-0_2-more%20than%20three%20bedrooms.jpg?impolicy=resizecrop&rh=590&cw=448&cx=-75"
+          />
+          <img
+            src="https://forever.travel-assets.com/flex/flexmanager/mediaasset/718026-0_2-free%20cancellation.jpg?impolicy=resizecrop&rh=590&cw=448&cx=-175"
+          />
+        </div>
+      </div>
+      <br />
+      <div class="icon">
+        <img
+          src="https://forever.travel-assets.com/flex/flexmanager/images/2022/04/06/VRBO-shield-mark.svg"
+        />
+        <h2>Einfach sorglos</h2>
+        <p>
+          Mit unserer Mit-Vertrauen-Buchen-<br />
+          Garantie bieten wir dir rund um dieUhr<br />
+          Unterstützung
+        </p>
+        <br />.
+        <img
+          src="https://forever.travel-assets.com/flex/flexmanager/images/2022/04/06/VRBO-teapot-mark.svg"
+        />
         <h2>
-            Finde private Unterkünfte, die zu dir passen</h2>
-            <p>Du willst von der Oma bis zum Baby alle mitnehmen? Auch deine pelzigen Freunde?
-                 Entdecke Ferienunterkünfte, die deinen Bedürfnissen entsprechen.</p>
-    <div class="finding">
-        <img src="https://forever.travel-assets.com/flex/flexmanager/mediaasset/718022-0_2-near%20the%20beach.jpg?impolicy=fcrop&h=590&w=448">
-        <img src="https://forever.travel-assets.com/flex/flexmanager/mediaasset/718024-0_2-pets%20welcome.jpg?impolicy=fcrop&h=590&w=448">
-        <img src="https://forever.travel-assets.com/flex/flexmanager/mediaasset/718030-0_2-swimming%20pools.jpg?impolicy=resizecrop&rh=590&cw=448&cx=-145">
-        <img src="https://forever.travel-assets.com/flex/flexmanager/mediaasset/718028-0_2-more%20than%20three%20bedrooms.jpg?impolicy=resizecrop&rh=590&cw=448&cx=-75">
-        <img src="https://forever.travel-assets.com/flex/flexmanager/mediaasset/718026-0_2-free%20cancellation.jpg?impolicy=resizecrop&rh=590&cw=448&cx=-175">
-    </div>
-                </div>
+          Die gleiche Privatsphäre wie zu<br />
+          Hause
+        </h2>
+        <p>
+          Genieße Vorzüge wie eine voll<br />
+          ausgestattete Küche, Waschmaschine,<br />
+          Pool, Garten und mehr
+        </p>
+        <br />
+        <img
+          src="https://forever.travel-assets.com/flex/flexmanager/images/2022/04/06/VRBO-globe-mark.svg"
+        />
+        <h2>Mehr gemeinsame Momente</h2>
+        <p>
+          Von der Buchung bis hin zum<br />
+          Aufenthalt – der gesamte Vorgang ist<br />
+          einfach und unkompliziert
+        </p>
+        <br />
+        <img
+          src="https://forever.travel-assets.com/flex/flexmanager/images/2022/04/06/VRBO-money-mark.svg"
+        />
+        <h2>Mehr Urlaub für weniger Geld</h2>
+        <p>
+          Mehr Platz, mehr Privatsphäre, mehr<br />
+          Annehmlichkeiten – mehr Wert
+        </p>
+        <br />
+      </div>
+      <div class="girl">
+        <div class="obj">
+          <h2>
+            Vermieten Sie Ihre<br />
+            Unterkunft<br />
+            vertrauensvoll mit<br />
+            FeWo-direkt
+          </h2>
+          <p>
+            Support in Echtzeit, schnelles und<br />
+            Registrieren undGäste mit<br />
+            positivem Feedback – bei FeWo-direkt fühlt sich<br />
+            Gastgeben wie Urlaub an.
+          </p>
+          <br />
+          <button>Unterkunft inserieren</button>
+        </div>
+        <img
+          src="https://forever.travel-assets.com/flex/flexmanager/mediaasset/732141-0_2-VRBO_HOSTS_LA_SAUNA_NEBELING_0101.jpg?impolicy=fcrop&w=1400&h=600&q=mediumHigh"
+        />
+      </div>
+      <br /><br />
+      <div>
+        <h2>Was ist FeWo-direkt?</h2>
+        <br />
+        <p>
+          FeWo-direkt ist dein kompetenter Ansprechpartner für Urlaub in einem
+          Ferienhaus oder einer Ferienwohnung. Als Teil von Vrbo, einem der
+          führenden Online-<br />
+          Marktplätze für Ferienhausvermietungen, bietet dir FeWo-direkt mehr
+          als zwei Millionen einzigartige Unterkünfte, darunter Fincas,
+          Bungalows, Apartments,<br />
+          Ferienhütten und sogar Villen. Sichere Zahlungen, Unterstützung rund
+          um die Uhr und die Mit-Vertrauen-Buchen-Garantie machen Buchungen zum
+          Kinderspiel.<br />
+          Über die benutzerfreundliche Website und zahlreiche praktische Filter
+          kannst du ohne großen Aufwand deine Traumferienwohnung für dein Budget
+          finden. So<br />
+          verbringst du ganz bestimmt einen unvergesslichen Urlaub, der sich von
+          der Suche über die Buchung bis hin zu Aufenthalt und Abreise ganz
+          stressfrei gestaltet.
+        </p>
+        <br />
+        <h2>Ferienwohnung oder Ferienhaus mieten: Das sind die Vorteile</h2>
+        <p>
+          Besonders Familien und Gruppen wissen die Vorteile von
+          Ferienunterkünften zu schätzen: mehr Platz, mehr Privatsphäre, mehr
+          Annehmlichkeiten. Du hast mehr<br />
+          Flexibilität und Freiheit in deinen eigenen vier Wänden als in
+          herkömmlichen Hotels und kannst deinen Urlaub frei planen – unabhängig
+          davon, ob du<br />
+          eine Städtereise machen oder mit deinem Hund inmitten der malerischen
+          Natur abschalten möchtest. Du suchst eine gemütliche Ferienhütte in
+          den Bergen mit<br />
+          Waschmaschine und Whirlpool? Ein Strandhaus am Wasser oder eine große
+          Finca im Süden mit Pool und voll ausgestatteter Küche? Kein Problem,
+          denn<br />
+          Ferienunterkünfte gibt es in allen Größen und mit jeder
+          Wunschausstattung, die dir für deinen nächsten Familienurlaub,
+          Abenteuertrip mit Freunden oder ein<br />
+          romantisches Wochenende vorschwebt.
+        </p>
+        <br />
+        <h2 class="bot">Beliebte Reiseziele</h2>
+        <ol class="bot">
+          <li>Top-Reiseziele</li>
+          <li>Weitere Top-Reiseziele</li>
+          <li>Ferienhäuser</li>
+          <li>Villen und Ferienwohnungen</li>
+          <li>Urlaubsideen</li>
+        </ol>
+      </div>
     </center>
-</body>
+    <footer>
+      <div class="foot">
+        <h1><span style="color: royalblue">FeWo-direkt</span></h1>
+        <br />
+        <ul class="blue">
+          <li><span style="color: black";><h3>FeWo-direkt erkunden</h3></span></li>
+          <li>Unterkunft inserieren</li>
+          <li>Mit Vertrauen buchen</li>
+          <li>Vertrauen und Sicherheit</li>
+          <li>Ressourcen für Partner</li>
+          <li>Ferienhäuser und Urlaubsinspiration</li>
+        </ul>
+      </div>
+
+      <div class="foot">
+        <ul class="blue">
+          <li><span style="color: black;"><h3>Unternehmen</h3></span></li>
+          <li>Über uns</li>
+          <li>Karriere</li>
+          <li>Affiliate-Partner</li>
+          <li>Presse</li>
+          <li>Allgemeine Geschäftsbedingungen</li>
+          <li>Datenschutzrichtlinie</li>
+          <li>Cookie-Erklärung</li>
+          <li>Melden illegaler Inhalte</li>
+          <li>Rechtliche Hinweise/Kontakt</li>
+          <li>Verantwortlicher Eigentümer</li>
+          <li>Inhaltsrichtlinien und Melden von Inhalten</li>
+        </ul>
+      </div>
+      <div class="foot">
+        <ul class="blue">
+          <li><span style="color: black;"><h3>Die Vrbo-Familie</h3></span></li>
+          <li>Vrbo</li>
+          <li>Abritel.fr</li>
+          <li>FeWo-direkt.de</li>
+          <li>Bookabach.co.nz</li>
+          <li>Stayz.com.au</li>
+        </ul>
+      </div>
+    </footer>
+    <br /><br />
+    <hr />
+    <br />
+    <p>
+      © 2025 FeWo-direkt, ein Unternehmen der Expedia Group. Alle Rechte
+      vorbehalten. FeWo-direkt und das FeWo-direkt-Logo sind Handelsmarken oder
+      eingetragene Handelsmarken von HomeAway.com, Inc.
+    </p>
+    <br /><br />
+  </body>
 </html>

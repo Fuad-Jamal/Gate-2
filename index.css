@@ -10,14 +10,15 @@
     font-size: xxx-large;
     margin-left: 50px;
 }
-img{
+#f1{
     height: 570px;
     width: 100%;
 }
-#menu{
-    flex-direction: row;
-}
 li{
+    list-style-type: none;
+}
+
+#menu{
     list-style: none;
     display: inline;
     padding: 3px;
@@ -28,16 +29,89 @@ nav{
     
 }
 .content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%x;
-    overflow: hidden;
-    position: relative;
-    margin: auto;
+    gap: 12px;
+  display: flex;
+  width: 100%;
+  height: 270px;
+
 }
-.content img{
-    height: 100%;
-    width: 100%;
-    display: none;
+figure img{
+    height: 140px;
+    width: 300px;
+    margin-left: 4px;
+    border-radius: 12px;
+}
+
+
+.foot{
+margin-bottom: 12%;
+height: 12%;
+flex-direction: column;
+padding: 52px;
+li{
+    padding: 7px;
+}
+}
+footer{
+    display: flex;
+    gap: 15%;
+}
+.input{
+    border-radius: 22px;
+    background-color: white;
+    position: absolute;
+    top: 400px;
+    padding: 0px;
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
+    bottom: 80px;
+    font-size: xxx-large;
+    margin-left: 40px;
+}
+.girl{
+    position: relative;
+    text-align: justify;
+    font-size: center;
+}
+.blue{
+    color: dodgerblue;
+}
+p h2{
+    justify-content: left;
+    text-align: left;   
+}
+.icon{
+    display: flex;
+    padding: 60px;
+
+}
+.icon img{
+    height: 52px;
+}
+.obj{
+    position: absolute;
+    background-color: cornsilk;
+    top: 20px;
+    margin-bottom: 3cm;
+    margin-left: 2cm;
+    margin-top: 2cm;
+    padding: 65px;
+    border-radius: 40px;
+    color: darkslategray;
+    font-size: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+button{
+    background-color: #0d223d;
+    border-radius: 100px;
+    padding: 20px;
+    color: azure;
+
+}
+.bot{
+    bottom: 52px;
+    margin-bottom: 20px;
+    height: 52px;
+
 }
