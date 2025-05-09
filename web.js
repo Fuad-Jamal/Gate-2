@@ -14,3 +14,9 @@ const didi = document.createElement('div');
         didi.style.height = '200px'
         didi.style.width = '200px'
         didi.style.backgroundColor = 'red'
+
+const myList = document.getElementById('myList')
+const listChildren = myList.children
+const item = listChildren[2]
+const copy = item.cloneNode()
+myList.appendChild(copy)
