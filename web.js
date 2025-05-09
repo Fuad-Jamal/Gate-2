@@ -23,3 +23,17 @@ myList.appendChild(copy)
 myList.addEventListener('click', function (e){
     const target = e.target
 })
+
+const table = document.getElementById('table')
+const btn = document.querySelector('#submit')
+const tr = document.getElementsByTagName('tr')
+
+btn.addEventListener('click', () =>{
+    const newRow = document.createElement('tr')
+    const col1 = document.createElement('td')
+    const col2 = document.createElement('td')
+    col1.textContent = `Row${tr.length + 1} cell 1`
+    col2.textContent = `Row${tr.length + 1} cell 2`
+    newRow.append(col1, col2)
+    table.appendChild(newRow)
+})
