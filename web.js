@@ -18,5 +18,8 @@ const didi = document.createElement('div');
 const myList = document.getElementById('myList')
 const listChildren = myList.children
 const item = listChildren[2]
-const copy = item.cloneNode()
+const copy = item.cloneNode(true)
 myList.appendChild(copy)
+myList.addEventListener('click', function (e){
+    const target = e.target
+})
